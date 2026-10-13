@@ -30,9 +30,9 @@ Overall score: **3.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,308 · **Forks**: 130 · **Open issues**: 392 · **Contributors**: 44
+- **Stars**: 1,307 · **Forks**: 130 · **Open issues**: 392 · **Contributors**: 44
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-13 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 90d | 2026-07-14 | 0 | 0 | 1 | 0 | 2 | 3 |
-| last180d | 2026-04-15 | 0 | 0 | 3 | 0 | 2 | 3 |
-| 360d | 2025-10-17 | 0 | 0 | 5 | 2 | 6 | 3 |
-| last720d | 2024-10-22 | 0 | 0 | 6 | 9 | 14 | 18 |
+| 30d | 2026-09-13 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-08-14 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 90d | 2026-07-15 | 0 | 0 | 1 | 0 | 2 | 3 |
+| last180d | 2026-04-16 | 0 | 0 | 3 | 0 | 2 | 3 |
+| 360d | 2025-10-18 | 0 | 0 | 5 | 2 | 6 | 3 |
+| last720d | 2024-10-23 | 0 | 0 | 6 | 9 | 14 | 18 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T07:15:17Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T08:08:51Z._
