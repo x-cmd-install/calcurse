@@ -1,3 +1,14 @@
+- repo: deepin_unstable
+  subrepo: main
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.3.0
+  origversion: 4.3.0-2.1
+  status: outdated
+  maintainers:
+    - fenio@debian.org
 - repo: gnuguix
   srcname: calcurse
   binname: calcurse
@@ -110,6 +121,15 @@
     - robertoguimaraes8@gmail.com
   licenses:
     - BSD-2-Clause
+- repo: gobolinux
+  srcname: Calcurse
+  visiblename: Calcurse
+  version: "2.8"
+  origversion: null
+  status: outdated
+  summary: calcurse is a text-based calendar and scheduling application
+  licenses:
+    - BSD
 - repo: alpine_3_19
   subrepo: community
   srcname: calcurse
@@ -537,17 +557,6 @@
   summary: Calendar and scheduling application for the command line
   licenses:
     - BSD-2-Clause
-- repo: nix_stable_24_05
-  srcname: calcurse
-  visiblename: calcurse
-  version: 4.8.1
-  origversion: null
-  status: outdated
-  summary: A calendar and scheduling application for the command line
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - BSD-2-Clause
 - repo: chimera
   subrepo: user
   srcname: calcurse
@@ -655,17 +664,6 @@
     - fenio@debian.org
   categories:
     - utils
-- repo: deepin_unstable
-  subrepo: main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.3.0
-  origversion: 4.3.0-2.1
-  status: outdated
-  maintainers:
-    - fenio@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: calcurse
@@ -732,15 +730,6 @@
     - BSD-2-Clause
   categories:
     - Unspecified
-- repo: gobolinux
-  srcname: Calcurse
-  visiblename: Calcurse
-  version: "2.8"
-  origversion: null
-  status: outdated
-  summary: calcurse is a text-based calendar and scheduling application
-  licenses:
-    - BSD
 - repo: fedora_40
   subrepo: release
   srcname: calcurse
@@ -802,20 +791,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.2
-  origversion: 4.8.2-1.fc42
-  status: newest
-  summary: Text-based personal organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: calcurse
   binnames:
@@ -824,6 +799,20 @@
   version: 4.8.1
   origversion: 4.8.1-7.fc42
   status: legacy
+  summary: Text-based personal organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-1.fc42
+  status: newest
   summary: Text-based personal organizer
   licenses:
     - BSD-2-Clause
@@ -1082,6 +1071,17 @@
   summary: A text-based personal organizer
   licenses:
     - BSD
+- repo: nix_stable_24_05
+  srcname: calcurse
+  visiblename: calcurse
+  version: 4.8.1
+  origversion: null
+  status: outdated
+  summary: A calendar and scheduling application for the command line
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - BSD-2-Clause
 - repo: nix_stable_24_11
   srcname: calcurse
   visiblename: calcurse
@@ -1446,6 +1446,16 @@
     - BSD-2-Clause
   categories:
     - debug
+- repo: starkos
+  subrepo: extra
+  srcname: calcurse
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-1
+  status: newest
+  summary: A text-based personal organizer
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: calcurse
   visiblename: calcurse
