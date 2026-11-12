@@ -52,16 +52,16 @@ x install calcurse
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 1 | 0 | 2 | 0 | 70 |
-| last60d | 2026-09-12 | 0 | 2 | 0 | 3 | 0 | 71 |
-| 90d | 2026-08-13 | 0 | 2 | 0 | 3 | 1 | 71 |
-| last180d | 2026-05-15 | 0 | 2 | 2 | 3 | 1 | 74 |
-| 360d | 2025-11-16 | 0 | 2 | 4 | 7 | 2 | 74 |
-| last720d | 2024-11-21 | 0 | 2 | 4 | 14 | 10 | 89 |
+| 30d | 2026-10-13 | 0 | 1 | 0 | 2 | 0 | 70 |
+| last60d | 2026-09-13 | 0 | 2 | 0 | 3 | 0 | 71 |
+| 90d | 2026-08-14 | 0 | 2 | 0 | 3 | 1 | 71 |
+| last180d | 2026-05-16 | 0 | 2 | 2 | 3 | 1 | 74 |
+| 360d | 2025-11-17 | 0 | 2 | 4 | 7 | 2 | 74 |
+| last720d | 2024-11-22 | 0 | 2 | 4 | 14 | 10 | 89 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/calcurse) 上共有 **132** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**122** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/calcurse) 上共有 **130** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -70,11 +70,11 @@ x install calcurse
 | Debian 13 | `4.8.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.8.1` | ⚠️ outdated |
-| Arch | `4.8.2` | ⚠️ outdated |
+| Arch | `4.9.0` | ✅ latest |
 | Homebrew | `4.8.2` | ⚠️ outdated |
-| Fedora rawhide | `4.8.2` | ⚠️ outdated |
+| Fedora rawhide | `4.9.0` | ✅ latest |
 | Nix unstable | `4.8.2` | ⚠️ outdated |
-| Void | `4.8.2` | ⚠️ outdated |
+| Void | `4.9.0` | ✅ latest |
 | Alpine edge | `4.8.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.8.2` | ⚠️ outdated |
 
@@ -87,4 +87,4 @@ calcurse 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261111.yml` · 2026-11-11T07:36:57Z._
+_数据快照: `data/card/261112.yml` · 2026-11-12T08:59:17Z._
