@@ -14,11 +14,11 @@ x install calcurse
 
 ## Code insight
 
-Total: **27,385** lines of code across **137** files in the top 5 languages.
+Total: **27,389** lines of code across **137** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 17,347 | 3,129 | 2,396 | 35 |
+| C | 17,351 | 3,129 | 2,396 | 35 |
 | Sh | 7,160 | 163 | 2,058 | 86 |
 | CHeader | 1,561 | 362 | 189 | 6 |
 | Python | 799 | 55 | 240 | 3 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,321 · **Forks**: 130 · **Open issues**: 394 · **Contributors**: 45
+- **Stars**: 1,321 · **Forks**: 130 · **Open issues**: 395 · **Contributors**: 45
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 9 · **Closed issues**: 233 · **Open issues**: 161 · **Commits**: 2126
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 9 · **Closed issues**: 235 · **Open issues**: 160 · **Commits**: 2127
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 1 | 0 | 2 | 0 | 70 |
-| last60d | 2026-09-13 | 0 | 2 | 0 | 3 | 0 | 71 |
-| 90d | 2026-08-14 | 0 | 2 | 0 | 3 | 1 | 71 |
-| last180d | 2026-05-16 | 0 | 2 | 2 | 3 | 1 | 74 |
-| 360d | 2025-11-17 | 0 | 2 | 4 | 7 | 2 | 74 |
-| last720d | 2024-11-22 | 0 | 2 | 4 | 14 | 10 | 89 |
+| 30d | 2026-10-14 | 0 | 1 | 0 | 3 | 0 | 71 |
+| last60d | 2026-09-14 | 0 | 2 | 0 | 4 | 0 | 72 |
+| 90d | 2026-08-15 | 0 | 2 | 0 | 4 | 0 | 72 |
+| last180d | 2026-05-17 | 0 | 2 | 2 | 5 | 0 | 75 |
+| 360d | 2025-11-18 | 0 | 2 | 4 | 9 | 1 | 75 |
+| last720d | 2024-11-23 | 0 | 2 | 4 | 16 | 9 | 90 |
 
 ## Distribution status
 
-Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **6** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **11** are ✅ on the latest upstream release, **113** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,9 +71,9 @@ Reported by **130** distros on [repology.org](https://repology.org/project/calcu
 | Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.8.1` | ⚠️ outdated |
 | Arch | `4.9.0` | ✅ latest |
-| Homebrew | `4.8.2` | ⚠️ outdated |
+| Homebrew | `4.9.0` | ✅ latest |
 | Fedora rawhide | `4.9.0` | ✅ latest |
-| Nix unstable | `4.8.2` | ⚠️ outdated |
+| Nix unstable | `4.9.0` | ✅ latest |
 | Void | `4.9.0` | ✅ latest |
 | Alpine edge | `4.8.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.8.2` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T08:59:17Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:19:10Z._
