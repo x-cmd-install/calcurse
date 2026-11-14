@@ -14,15 +14,15 @@ x install calcurse
 
 ## Code insight
 
-Total: **27,389** lines of code across **137** files in the top 5 languages.
+Total: **27,349** lines of code across **137** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 17,351 | 3,129 | 2,396 | 35 |
-| Sh | 7,160 | 163 | 2,058 | 86 |
+| C | 17,349 | 3,129 | 2,396 | 35 |
+| Sh | 7,150 | 134 | 2,057 | 86 |
 | CHeader | 1,561 | 362 | 189 | 6 |
 | Python | 799 | 55 | 240 | 3 |
-| Automake | 297 | 0 | 40 | 7 |
+| Automake | 269 | 1 | 27 | 7 |
 
 ## OpenSSF Scorecard
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,321 · **Forks**: 130 · **Open issues**: 395 · **Contributors**: 45
+- **Stars**: 1,321 · **Forks**: 130 · **Open issues**: 396 · **Contributors**: 45
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 9 · **Closed issues**: 235 · **Open issues**: 160 · **Commits**: 2127
+- **Releases**: 0 · **Merged PRs**: 2 · **Open PRs**: 9 · **Closed issues**: 238 · **Open issues**: 158 · **Commits**: 2133
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 1 | 0 | 3 | 0 | 71 |
-| last60d | 2026-09-14 | 0 | 2 | 0 | 4 | 0 | 72 |
-| 90d | 2026-08-15 | 0 | 2 | 0 | 4 | 0 | 72 |
-| last180d | 2026-05-17 | 0 | 2 | 2 | 5 | 0 | 75 |
-| 360d | 2025-11-18 | 0 | 2 | 4 | 9 | 1 | 75 |
-| last720d | 2024-11-23 | 0 | 2 | 4 | 16 | 9 | 90 |
+| 30d | 2026-10-15 | 0 | 1 | 0 | 2 | 1 | 77 |
+| last60d | 2026-09-15 | 0 | 2 | 0 | 4 | 1 | 78 |
+| 90d | 2026-08-16 | 0 | 2 | 0 | 4 | 1 | 78 |
+| last180d | 2026-05-18 | 0 | 2 | 2 | 5 | 1 | 81 |
+| 360d | 2025-11-19 | 0 | 2 | 4 | 9 | 2 | 81 |
+| last720d | 2024-11-24 | 0 | 2 | 4 | 17 | 9 | 96 |
 
 ## Distribution status
 
-Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **11** are ✅ on the latest upstream release, **113** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **13** are ✅ on the latest upstream release, **111** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T08:19:10Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T08:12:38Z._
