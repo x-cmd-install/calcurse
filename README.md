@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,321 · **Forks**: 131 · **Open issues**: 397 · **Contributors**: 45
+- **Stars**: 1,320 · **Forks**: 131 · **Open issues**: 397 · **Contributors**: 45
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 1 | 0 | 2 | 2 | 77 |
-| last60d | 2026-09-20 | 0 | 2 | 0 | 4 | 2 | 78 |
-| 90d | 2026-08-21 | 0 | 2 | 0 | 4 | 2 | 78 |
-| last180d | 2026-05-23 | 0 | 2 | 2 | 5 | 2 | 81 |
-| 360d | 2025-11-24 | 0 | 2 | 4 | 9 | 3 | 81 |
-| last720d | 2024-11-29 | 0 | 2 | 4 | 17 | 9 | 96 |
+| 30d | 2026-10-21 | 0 | 1 | 0 | 2 | 2 | 77 |
+| last60d | 2026-09-21 | 0 | 2 | 0 | 4 | 2 | 78 |
+| 90d | 2026-08-22 | 0 | 2 | 0 | 4 | 2 | 78 |
+| last180d | 2026-05-24 | 0 | 2 | 2 | 5 | 2 | 81 |
+| 360d | 2025-11-25 | 0 | 2 | 4 | 9 | 3 | 81 |
+| last720d | 2024-11-30 | 0 | 2 | 4 | 17 | 9 | 96 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T10:24:21Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:33:30Z._
