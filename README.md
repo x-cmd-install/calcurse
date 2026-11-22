@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,321 · **Forks**: 131 · **Open issues**: 397 · **Contributors**: 45
+- **Stars**: 1,322 · **Forks**: 131 · **Open issues**: 397 · **Contributors**: 45
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 1 | 0 | 3 | 1 | 79 |
-| last60d | 2026-09-22 | 0 | 2 | 0 | 5 | 1 | 80 |
-| 90d | 2026-08-23 | 0 | 2 | 0 | 5 | 1 | 80 |
-| last180d | 2026-05-25 | 0 | 2 | 2 | 6 | 1 | 83 |
-| 360d | 2025-11-26 | 0 | 2 | 4 | 10 | 2 | 83 |
-| last720d | 2024-12-01 | 0 | 2 | 4 | 18 | 8 | 98 |
+| 30d | 2026-10-23 | 0 | 1 | 0 | 3 | 1 | 79 |
+| last60d | 2026-09-23 | 0 | 1 | 0 | 4 | 1 | 79 |
+| 90d | 2026-08-24 | 0 | 2 | 0 | 5 | 1 | 80 |
+| last180d | 2026-05-26 | 0 | 2 | 2 | 6 | 1 | 83 |
+| 360d | 2025-11-27 | 0 | 2 | 4 | 10 | 1 | 83 |
+| last720d | 2024-12-02 | 0 | 2 | 4 | 18 | 8 | 98 |
 
 ## Distribution status
 
-Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **2** are ✅ on the latest upstream release, **121** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **8** are ✅ on the latest upstream release, **115** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **130** distros on [repology.org](https://repology.org/project/calcu
 | Ubuntu 26.04 LTS | `4.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.8.1` | ⚠️ outdated |
 | Arch | `4.9.1` | ✅ latest |
-| Homebrew | `4.9.0` | ⚠️ outdated |
+| Homebrew | `4.9.1` | ✅ latest |
 | Fedora rawhide | `4.9.0` | ⚠️ outdated |
 | Nix unstable | `4.9.0` | ⚠️ outdated |
 | Void | `4.9.0` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T09:06:50Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:38:27Z._
