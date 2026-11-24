@@ -24,16 +24,6 @@ Total: **27,349** lines of code across **137** files in the top 5 languages.
 | Python | 799 | 55 | 240 | 3 |
 | Automake | 269 | 1 | 27 | 7 |
 
-## OpenSSF Scorecard
-
-Overall score: **3.8 / 10**
-
-Lowest-scoring checks:
-
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-
 ## Source
 
 - **Upstream**: <https://github.com/lfos/calcurse>
@@ -42,7 +32,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,322 · **Forks**: 131 · **Open issues**: 397 · **Contributors**: 45
+- **Stars**: 1,321 · **Forks**: 130 · **Open issues**: 397 · **Contributors**: 45
 
 ## Totals (cumulative)
 
@@ -52,16 +42,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 1 | 0 | 2 | 1 | 79 |
-| last60d | 2026-09-24 | 0 | 1 | 0 | 4 | 1 | 79 |
-| 90d | 2026-08-25 | 0 | 2 | 0 | 5 | 1 | 80 |
-| last180d | 2026-05-27 | 0 | 2 | 2 | 6 | 1 | 83 |
-| 360d | 2025-11-28 | 0 | 2 | 4 | 9 | 1 | 83 |
-| last720d | 2024-12-03 | 0 | 2 | 4 | 18 | 8 | 98 |
+| 30d | 2026-10-25 | 0 | 1 | 0 | 2 | 1 | 79 |
+| last60d | 2026-09-25 | 0 | 1 | 0 | 4 | 1 | 79 |
+| 90d | 2026-08-26 | 0 | 2 | 0 | 5 | 1 | 80 |
+| last180d | 2026-05-28 | 0 | 2 | 2 | 6 | 1 | 83 |
+| 360d | 2025-11-29 | 0 | 2 | 4 | 9 | 1 | 83 |
+| last720d | 2024-12-04 | 0 | 2 | 4 | 18 | 8 | 98 |
 
 ## Distribution status
 
-Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **9** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/calcurse). **11** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -72,7 +62,7 @@ Reported by **130** distros on [repology.org](https://repology.org/project/calcu
 | Ubuntu 24.04 LTS | `4.8.1` | ⚠️ outdated |
 | Arch | `4.9.1` | ✅ latest |
 | Homebrew | `4.9.1` | ✅ latest |
-| Fedora rawhide | `4.9.0` | ⚠️ outdated |
+| Fedora rawhide | `4.9.1` | ✅ latest |
 | Nix unstable | `4.9.0` | ⚠️ outdated |
 | Void | `4.9.0` | ⚠️ outdated |
 | Alpine edge | `4.8.2` | ⚠️ outdated |
@@ -87,4 +77,4 @@ Install metadata for calcurse lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T11:13:19Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:58:28Z._
