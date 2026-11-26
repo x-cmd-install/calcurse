@@ -1,16 +1,18 @@
-- repo: parabola
-  subrepo: extra
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: calcurse
-  binname: calcurse
+  binnames:
+    - calcurse
   visiblename: calcurse
-  version: 4.8.2
-  origversion: 4.8.2-1
+  version: 4.8.1
+  origversion: 4.8.1-1.3
   status: outdated
-  summary: A text-based personal organizer
-  licenses:
-    - BSD
-- repo: pardus_21
-  subrepo: main
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: calcurse
   binnames:
     - calcurse
@@ -22,75 +24,6 @@
     - fenio@debian.org
   categories:
     - utils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.1
-  origversion: 4.8.1-1.3
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.1
-  origversion: 4.8.1-1.3
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - utils
-- repo: yacp
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.9.1
-  origversion: null
-  status: newest
-  summary: Text-based calendar and scheduling application
-  categories:
-    - Utils
-- repo: pclinuxos
-  srcname: calcurse
-  visiblename: calcurse
-  version: 4.6.0
-  origversion: 4.6.0-1pclos2020
-  status: outdated
-  summary: A text-based calendar and scheduling application
-  categories:
-    - Office
-- repo: chimera
-  subrepo: user
-  srcname: calcurse
-  binname: calcurse-locale
-  visiblename: calcurse-locale
-  version: 4.8.2
-  origversion: 4.8.2-r1
-  status: outdated
-  summary: Calendar and scheduling application for the command line (locale data)
-  licenses:
-    - BSD-2-Clause
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: calcurse
-  visiblename: calcurse
-  version: 4.8.0
-  origversion: 4.8.0-bp155.1.8
-  status: outdated
-  summary: Text-based Organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Office/Organizers
 - repo: alpine_3_17
   subrepo: community
   srcname: calcurse
@@ -636,6 +569,17 @@
 - repo: chimera
   subrepo: user
   srcname: calcurse
+  binname: calcurse-locale
+  visiblename: calcurse-locale
+  version: 4.8.2
+  origversion: 4.8.2-r1
+  status: outdated
+  summary: Calendar and scheduling application for the command line (locale data)
+  licenses:
+    - BSD-2-Clause
+- repo: chimera
+  subrepo: user
+  srcname: calcurse
   binname: calcurse-man
   visiblename: calcurse-man
   version: 4.8.2
@@ -744,19 +688,6 @@
     - fenio@debian.org
   categories:
     - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.1
-  origversion: 4.8.1-1.3
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - utils
 - repo: fedora_39
   subrepo: release
   srcname: calcurse
@@ -774,22 +705,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: calcurse
-  binnames:
-    - calcurse
-    - calcurse-debuginfo
-    - calcurse-debugsource
-  visiblename: calcurse
-  version: 4.8.1
-  origversion: 4.8.1-6.fc40
-  status: outdated
-  summary: Text-based personal organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: calcurse
   binnames:
@@ -799,6 +714,22 @@
   visiblename: calcurse
   version: 4.8.1
   origversion: 4.8.1-4.fc40
+  status: outdated
+  summary: Text-based personal organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: calcurse
+  binnames:
+    - calcurse
+    - calcurse-debuginfo
+    - calcurse-debugsource
+  visiblename: calcurse
+  version: 4.8.1
+  origversion: 4.8.1-6.fc40
   status: outdated
   summary: Text-based personal organizer
   licenses:
@@ -834,20 +765,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.2
-  origversion: 4.8.2-1.fc42
-  status: outdated
-  summary: Text-based personal organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: calcurse
   binnames:
@@ -856,6 +773,20 @@
   version: 4.8.1
   origversion: 4.8.1-7.fc42
   status: legacy
+  summary: Text-based personal organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-1.fc42
+  status: outdated
   summary: Text-based personal organizer
   licenses:
     - BSD-2-Clause
@@ -890,20 +821,6 @@
   categories:
     - Unspecified
 - repo: fedora_45
-  subrepo: release
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.8.2
-  origversion: 4.8.2-4.fc45
-  status: legacy
-  summary: Text-based personal organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_45
   subrepo: updates
   srcname: calcurse
   binnames:
@@ -912,6 +829,20 @@
   version: 4.9.0
   origversion: 4.9.0-1.fc45
   status: outdated
+  summary: Text-based personal organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-4.fc45
+  status: legacy
   summary: Text-based personal organizer
   licenses:
     - BSD-2-Clause
@@ -1065,23 +996,6 @@
     - BSD-2
   categories:
     - app-office
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: calcurse
-  binnames:
-    - calcurse
-    - calcurse-debuginfo
-    - calcurse-debugsource
-    - calcurse-lang
-  visiblename: calcurse
-  version: 4.8.2
-  origversion: 4.8.2-1.6
-  status: outdated
-  summary: Text-based Organizer
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Productivity/Office/Organizers
 - repo: macports
   srcname: sysutils/calcurse
   binname: calcurse
@@ -1237,6 +1151,18 @@
     - ports@openbsd.org
   categories:
     - productivity
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: calcurse
+  visiblename: calcurse
+  version: 4.8.0
+  origversion: 4.8.0-bp155.1.8
+  status: outdated
+  summary: Text-based Organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Office/Organizers
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: calcurse
@@ -1249,6 +1175,82 @@
     - BSD-2-Clause
   categories:
     - Productivity/Office/Organizers
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: calcurse
+  binnames:
+    - calcurse
+    - calcurse-debuginfo
+    - calcurse-debugsource
+    - calcurse-lang
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-1.6
+  status: outdated
+  summary: Text-based Organizer
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Productivity/Office/Organizers
+- repo: parabola
+  subrepo: extra
+  srcname: calcurse
+  binname: calcurse
+  visiblename: calcurse
+  version: 4.8.2
+  origversion: 4.8.2-1
+  status: outdated
+  summary: A text-based personal organizer
+  licenses:
+    - BSD
+- repo: pardus_21
+  subrepo: main
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.6.0
+  origversion: 4.6.0-2
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - utils
+- repo: parrot
+  subrepo: parrot/main
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.8.1
+  origversion: 4.8.1-1.3
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - utils
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.8.1
+  origversion: 4.8.1-1.3
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - utils
+- repo: pclinuxos
+  srcname: calcurse
+  visiblename: calcurse
+  version: 4.6.0
+  origversion: 4.6.0-1pclos2020
+  status: outdated
+  summary: A text-based calendar and scheduling application
+  categories:
+    - Office
 - repo: pkgsrc_2026_2
   srcname: time/calcurse
   binname: calcurse
@@ -1285,32 +1287,6 @@
     - vins@netbsd.org
   categories:
     - time
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.3.0
-  origversion: 4.3.0-2.1
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: calcurse
-  binnames:
-    - calcurse
-  visiblename: calcurse
-  version: 4.6.0
-  origversion: 4.6.0-2
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - utils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: calcurse
@@ -1643,3 +1619,14 @@
   summary: text-based calendar and scheduling application
   licenses:
     - 2-clause BSD License
+- repo: yacp
+  srcname: calcurse
+  binnames:
+    - calcurse
+  visiblename: calcurse
+  version: 4.9.1
+  origversion: null
+  status: newest
+  summary: Text-based calendar and scheduling application
+  categories:
+    - Utils
