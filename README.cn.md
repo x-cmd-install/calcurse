@@ -24,6 +24,16 @@ x install calcurse
 | Python | 799 | 55 | 240 | 3 |
 | Automake | 269 | 1 | 27 | 7 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **3.8 / 10**
+
+评分最低的几项:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/lfos/calcurse>
@@ -42,12 +52,12 @@ x install calcurse
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 1 | 0 | 2 | 1 | 79 |
-| last60d | 2026-09-28 | 0 | 1 | 0 | 4 | 1 | 79 |
-| 90d | 2026-08-29 | 0 | 2 | 0 | 5 | 1 | 80 |
-| last180d | 2026-05-31 | 0 | 2 | 1 | 6 | 1 | 83 |
-| 360d | 2025-12-02 | 0 | 2 | 4 | 9 | 1 | 83 |
-| last720d | 2024-12-07 | 0 | 2 | 4 | 18 | 8 | 98 |
+| 30d | 2026-10-29 | 0 | 1 | 0 | 2 | 1 | 79 |
+| last60d | 2026-09-29 | 0 | 1 | 0 | 4 | 1 | 79 |
+| 90d | 2026-08-30 | 0 | 2 | 0 | 5 | 1 | 80 |
+| last180d | 2026-06-01 | 0 | 2 | 1 | 6 | 1 | 83 |
+| 360d | 2025-12-03 | 0 | 2 | 4 | 9 | 1 | 83 |
+| last720d | 2024-12-08 | 0 | 2 | 4 | 18 | 8 | 98 |
 
 ## 改进这些数据
 
@@ -58,4 +68,4 @@ calcurse 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:11:31Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:23:52Z._
